@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:article_name",
+ "creation": "2024-09-02 15:31:38.361582",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_rufy",
+  "article_name",
+  "column_break_xbwb",
+  "article_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rufy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_name",
+   "fieldtype": "Link",
+   "label": "Article Name",
+   "options": "Article Library",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_xbwb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "article_id",
+   "fieldtype": "Data",
+   "label": "Article ID"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-04 17:37:06.865955",
+ "modified_by": "Administrator",
+ "module": "Library management",
+ "name": "Article Details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
